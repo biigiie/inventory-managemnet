@@ -2,14 +2,22 @@ document.addEventListener('DOMContentLoaded', () => {
     loadInventory();
 });
 
-function loadInventory() {
-    fetch('data/inventory_data.json')
-        .then(response => response.json())
-        .then(data => {
-            displayInventory(data);
-        })
-        .catch(error => console.error('Error loading inventory:', error));
+const data = {
+    "item1": 100,
+    "item2": 50,
+    "item3": 75,
+    "item4": 120,
+    "item5": 200
 }
+  
+
+function loadInventory() {
+
+        displayInventory(data);
+        console.log(data)
+}
+
+loadInventory()
 
 function displayInventory(inventory) {
     const inventoryDiv = document.getElementById('inventory');
@@ -29,20 +37,6 @@ function adjustQuantity() {
         alert('Please enter a valid quantity change.');
         return;
     }
-
-    const adjustmentData = { item: itemName, quantityChange: quantityChange };
-
-    fetch('/adjustQuantity', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(adjustmentData),
-    })
-        .then(response => response.text())
-        .then(message => {
-            alert(message);
-            loadInventory();
-        })
-        .catch(error => console.error('Error adjusting quantity:', error));
+    data[itemName] = data[itemName] - quantityChange
+    loadInventory()
 }
