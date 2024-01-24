@@ -3,11 +3,11 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 const data = {
-    "item1": 100,
-    "item2": 50,
-    "item3": 75,
-    "item4": 120,
-    "item5": 200
+    "Bread": 100,
+    "Pasta": 50,
+    "Noodles": 75,
+    "Rice": 120,
+    "Plantain": 200
 }
   
 
