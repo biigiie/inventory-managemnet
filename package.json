@@ -2,7 +2,7 @@
   "name": "inverntory-management-system",
   "version": "1.0.0",
   "description": "the Inventory Tracker System is a feature-rich software program that simplifies and maximizes inventory management. The system's main goal is to offer a single platform for inventory data tracking, management, and analysis, guaranteeing effective control and insight into stock levels.",
-  "source": "index.html",
+  "source": "./index.html",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
