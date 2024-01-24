@@ -1,14 +1,17 @@
 {
-  "name": "gt",
+  "name": "inverntory-management-system",
   "version": "1.0.0",
-  "description": "This simple web application allows users to track their reading progress, mark books as \"currently reading,\" and indicate when a book is \"done reading.\" The user can add books to their reading log, providing an easy way to organize and achieve their reading goals.",
-  "main": "script.js",
+  "description": "the Inventory Tracker System is a feature-rich software program that simplifies and maximizes inventory management. The system's main goal is to offer a single platform for inventory data tracking, management, and analysis, guaranteeing effective control and insight into stock levels.",
+  "source": "index.html",
   "scripts": {
-    "start": "parcel ./*.html",
-    "build": "parcel  build ./*.html",
+    "start": "parcel",
+    "build": "parcel build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.11.0"
+  }
 }

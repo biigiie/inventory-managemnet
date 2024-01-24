@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",()=>{n()});const e={Bread:100,Pasta:50,Noodles:75,Rice:120,Plantain:200};function n(){(function(e){let n=document.getElementById("inventory");for(let t in n.innerHTML="<h2>Current Inventory</h2>",e){let o=document.createElement("div");o.innerHTML=`<p>${t}: ${e[t]}</p>`,n.appendChild(o)}})(e),console.log(e)}n();
+//# sourceMappingURL=index.36a6aeb8.js.map
