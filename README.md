@@ -38,3 +38,10 @@ In summary, the incorporation of a Microservices architecture enhances the Inven
 
 **Transaction Log**
 
+![Assignment 4 UML Diagram](https://github.com/biigiie/inventory-managemnet/assets/106522136/713e6574-1383-4121-a886-5ab03fb23580)
+
+**Build Pipeline**
+
+
+
+Teamcity dashboard screenshot showing the bugs that were found and fixed to result into a successful build pipeline.
