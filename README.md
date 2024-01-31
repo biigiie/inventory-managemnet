@@ -32,3 +32,9 @@ In summary, the incorporation of a Microservices architecture enhances the Inven
 **Maintainability:** The Inventory Management Tracker's generic architecture, made possible by microservices, makes maintenance easier. Because problems and upgrades are limited to particular services, it is simpler to improve, update, and debug individual inventory items without having an impact on the system as a whole. This method increases the system's robustness and endurance by streamlining the maintenance process overall.
 
 # SOFTWARE DESIGN AND MODEL
+**Add Item**
+
+![Class UML diagram](https://github.com/biigiie/inventory-managemnet/assets/106522136/86e17713-21b2-438f-98f5-30b0bbe52c53)
+
+**Transaction Log**
+
