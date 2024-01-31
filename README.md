@@ -42,6 +42,39 @@ In summary, the incorporation of a Microservices architecture enhances the Inven
 
 **Build Pipeline**
 
-
+![Build Pipeline](https://github.com/biigiie/inventory-managemnet/assets/106522136/50e56fe6-c94f-4a04-99ab-837e3752d1dd)
 
 Teamcity dashboard screenshot showing the bugs that were found and fixed to result into a successful build pipeline.
+
+# TEST CASES
+- [ ] Add Items
+- [ ] Update Items
+- [ ] Mark item added
+
+# USED TECHNOLOGIES
+**Technologies Used**
+
+**HTML:** HTML (Hypertext Markup Language) is used for structuring the content of web pages.
+Documentation: [HTML documentation](https://www.w3schools.com/html/).
+
+**JavaScript:** JavaScript is a programming language that enables dynamic and interactive behavior on web pages.
+Documentation: [JavaScript documentation](https://www.w3schools.com/js/).
+
+
+**CSS:** CSS (Cascading Style Sheets) is used for styling the HTML elements, providing a visually appealing presentation.
+Documentation: [CSS documentation](https://https://www.w3schools.com/css/).
+
+**Git:** Git is a distributed version control system used for tracking changes in the source code during development.
+Documentation: [Git documentation](https://git-scm.com/doc).
+
+**GitHub:** GitHub is a web-based platform for hosting and collaborating on Git repositories, facilitating team collaboration.
+Documentation: [Git documentation](https://docs.github.com/en).
+
+**Team city:** TeamCity is a general-purpose CI/CD software platform that allows for flexible workflows, collaboration and development practices.
+Documentation: [Team city CI/CD documentation](https://www.jetbrains.com/teamcity/ci-cd-guide/).
+
+
+> [!NOTE]
+> This project embraces simplicity and does not heavily rely on external tools or frameworks, providing a lightweight and straightforward solution for tracking reading progress with the essential use of HTML, JavaScript, and CSS.
+
+> Feel free to customize and enhance the code to suit your specific requirements. Happy reading! 📚
